@@ -25,7 +25,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: PS_PARTKEY
-            nullable: false
+            nullable: "false"
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 82c68394-e205-44ac-8531-5aa930567f7d
@@ -39,7 +39,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: PS_SUPPKEY
-            nullable: false
+            nullable: "false"
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 9e57ce6f-2207-4835-a906-8d65a9ca2072
