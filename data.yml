@@ -1250,7 +1250,7 @@ stepTypes:
     id: Stage
     isDisabled: false
     metadata:
-      defaultStorageLocation: null
+      defaultStorageLocation: QA_STAGING
       error: null
       nodeMetadataSpec: |
         capitalized: Stage
