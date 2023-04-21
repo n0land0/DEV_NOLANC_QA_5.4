@@ -1,5 +1,12 @@
 defaultStorageMapping: WORK
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: "{ location: WORK name: NATION }"
+    id: 1
+    includeSelector: "{ location: WORK name: ORDERS } OR { location: WORK name: PART } OR { location: WORK name: LINE* }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   DEV_DATA_MART:
     mappingDefinitions:
