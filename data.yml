@@ -1,10 +1,10 @@
 defaultStorageMapping: WORK
 jobs:
-  Job-1:
+  Job-2:
     excludeSelector: "{ location: WORK name: NATION }"
-    id: 1
+    id: 2
     includeSelector: "{ location: WORK name: ORDERS } OR { location: WORK name: PART } OR { location: WORK name: LINE* }"
-    name: New Job
+    name: fudj
     steps: []
     subgraphs: []
 locations:

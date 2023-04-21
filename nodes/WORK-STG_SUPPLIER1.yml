@@ -317,13 +317,15 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              SUPPLIER: 366f1440-4729-470f-883f-1fdcc7bdd135
+            customSQL:
               customSQL: ""
             dependencies:
               - locationName: WORK
-                nodeName: STG_SUPPLIER
+                nodeName: SUPPLIER
             join:
-              joinCondition: FROM {{ ref('WORK', 'STG_SUPPLIER') }} "STG_SUPPLIER"
+              joinCondition: FROM {{ ref('WORK', 'SUPPLIER') }} "SUPPLIER"
             name: STG_SUPPLIER1
             noLinkRefs: []
       name: STG_SUPPLIER1
